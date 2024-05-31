@@ -15,8 +15,8 @@ title_course = 'Python' # title_course - название курса
 
 time = counter_expensive_hours / counter_complete_HV
 # time - выделенное время на прохождение
-hours = 'часа' if (time < LEFT or LEFT < time < RIGHT) else 'часов'
 hours = 'час' if time == LEFT else 'часов'
+hours = 'часа' if (time < LEFT or LEFT < time < RIGHT) else 'часов'
 # hours - склонение слова 'час'
 
 # Выведем информацию
